@@ -4,9 +4,23 @@ h1, p{
     width: 550px;
 }
 
+div{
+    margin-bottom: 200px;
+}
+
 .divImg{
     float: right;
     margin-left: 50px;
     position: relative;
     right: 50px;
+}
+
+h3{
+    position: absolute;
+    bottom: 220px;
+    right: 570px;
+}
+
+.wholelottanothing{
+    margin-bottom: 30px
 }
