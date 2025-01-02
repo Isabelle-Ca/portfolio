@@ -10,28 +10,33 @@
   	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	
 	<!-- Include a sitewide CSS file for consistent styling across the site -->
-	<link rel="stylesheet" type="text/css" href="../css/site.css">
-	<!-- Lab-specifc CSS file for any special styling of this particular page -->
-	<link rel="stylesheet" type="text/css" href="css/lab.css">
+<!-- MIGHT NEED??	<link rel="stylesheet" type="text/css" href="../css/site.css"> --> 
+	<!-- specifc CSS file for any special styling of this particular page -->
+	<link rel="stylesheet" type="text/css" href=".css">
 	
 	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
 	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
 </head>
 <body>
-    <!--MAKE A NAVBAR LOCKED IN (JS)-->
         <nav id="navbar">
 			<a href="./index.html">Isabelle Carrou</a>
-            <a href="./about.html">About</a>
-            <a href="./resume.html">Resume</a>
+            <a href="./AboutPage/index.html">About</a>
+            <a href="./ResumePage/index.html">Resume</a>
 		</nav>
 		<section>
+		<div class="intro">
 			<h1>Hey, I'm Isabelle!</h1>
             <p>I'm a student at UCSC currently majoring in Art & Design: Gaming + Playable Media. I have several interests including graphic design, multimedia, and website design. I hope to continue to learn more and develop my skills. </p>
+		</div>
 		</section>
 
-        <section>
+        <section class="work-p">
             <h1>Selected Work</h1>
+			<img class="divImg" src="img/dividend.jpg"
+				width="700"
+				height="400"
+			>
             <p>Here is some of the projects that I've worked on. Feel free to click on the projects to get a fuller description.</p>
         </section>
     <main>
